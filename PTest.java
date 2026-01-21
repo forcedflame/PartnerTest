@@ -23,7 +23,7 @@ public class PTest {
 
 		long end = System.nanoTime();
 		double time = (end - start) / 1000000000.0;
-		System.out.println("Total time: " + time + " s");
+		System.out.println("Total time: " + time + " ms");
 	}
 
 	public static void processFile(String input_file, String output_file) {
